@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGreen"
+    android:orientation="vertical"
+    tools:context=".Splash">
+
+    <!--on below line we are adding an image view-->
+
+    <!--on below line we are creating progress bar-->
+
+    <ImageView
+        android:id="@+id/id_pancescu_alexandru_1088_ImageView"
+        android:layout_width="190dp"
+        android:layout_height="203dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_pancescu_alexandru_1088_numeSiGrupa"
+
+        tools:ignore="MissingConstraints" />
+<!--id_pancescu_alexandru_1088-->
+    <TextView
+        android:id="@+id/id_pancescu_alexandru_1088_numeSiGrupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_pancescu_alexandru_1088_ImageView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="84dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/astaDaNume"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/id_pancescu_alexandru_1088_ImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ProgressBar
+        android:id="@+id/id_pancescu_alexandru_loading"
+        android:layout_width="151dp"
+        android:layout_height="149dp"
+        android:layout_below="@id/id_pancescu_alexandru_1088_ImageView"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_pancescu_alexandru_1088_ImageView"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

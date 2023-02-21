@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnagramActivity">
+
+    <Button
+        android:id="@+id/id_pancescu_alexandru_1088_btn_create"
+        android:layout_width="283dp"
+        android:layout_height="190dp"
+        android:autoText="false"
+        android:background="#00BD08"
+
+        android:backgroundTint="#00B308"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/create_diagram"
+        android:textAllCaps="true"
+        android:textColor="#6D4C41"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:barrierMargin="@dimen/material_emphasis_disabled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105"
+        app:strokeColor="#01CF0B" />
+
+    <TextView
+        android:id="@+id/id_pancescu_alexandru_1088_txt_input"
+        android:layout_width="82dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="80dp"
+        android:text="@string/input"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_pancescu_alexandru_1088_btn_create"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <TextView
+        android:id="@+id/id_pancescu_alexandru_1088_txt_output"
+        android:layout_width="82dp"
+        android:layout_height="55dp"
+android:textSize="20dp"
+        android:textColor="@color/red"
+        android:text="@string/output"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/id_pancescu_alexandru_1088_txt_input"
+        app:layout_constraintTop_toBottomOf="@+id/id_pancescu_alexandru_1088_btn_create"
+        app:layout_constraintVertical_bias="0.339"
+        tools:ignore="UnknownId" />
+</androidx.constraintlayout.widget.ConstraintLayout>

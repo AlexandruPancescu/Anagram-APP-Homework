@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pancescu_Alexandru_1088_Tema_DAM</string>
+    <string name="astaDaNume">Pancescu Alexandru 1088</string>
+    <string name="create_diagram">Create diagram</string>
+    <string name="create_the_anagram">Create the anagram</string>
+    <string name="create">Create</string>
+    <string name="type_in_the_word">type in the word</string>
+    <string name="input">input</string>
+    <string name="output">output</string>
+    <string name="cancel">cancel</string>
+    <string name="Create">create</string>
+    <string name="title_activity_app_dialog_me">AppDialogMe</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

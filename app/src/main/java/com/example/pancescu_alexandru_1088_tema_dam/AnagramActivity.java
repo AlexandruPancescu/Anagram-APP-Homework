@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class AnagramActivity extends AppCompatActivity implements Dialog.DialogListener {
-
+ ///
     Button btn;
     Dialog dialog;
     TextView tvInput, tvOutput;
